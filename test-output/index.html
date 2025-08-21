@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Suite" class="navigator-link">
+              <span class="suite-name border-passed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
+                    <span>C:\Users\Ameet Khemani\Downloads\New folder\New folder\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Suite" class="navigator-link ">
+                    <span>1 group</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">11 methods,   11 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testcases.RestAssured_TestCases" class="method navigator-link" hash-for-method="DeletePim">DeletePim</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testcases.RestAssured_TestCases" class="method navigator-link" hash-for-method="DeletePimEmp">DeletePimEmp</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testcases.RestAssured_TestCases" class="method navigator-link" hash-for-method="GetEmpCount">GetEmpCount</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testcases.RestAssured_TestCases" class="method navigator-link" hash-for-method="GetHolidayData">GetHolidayData</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testcases.RestAssured_TestCases" class="method navigator-link" hash-for-method="GetLeaveData">GetLeaveData</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testcases.RestAssured_TestCases" class="method navigator-link" hash-for-method="GetLeaveType">GetLeaveType</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testcases.RestAssured_TestCases" class="method navigator-link" hash-for-method="GetUsageReport">GetUsageReport</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testcases.RestAssured_TestCases" class="method navigator-link" hash-for-method="PostPimEmp">PostPimEmp</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testcases.RestAssured_TestCases" class="method navigator-link" hash-for-method="PutTerminationReason">PutTerminationReason</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testcases.RestAssured_TestCases" class="method navigator-link" hash-for-method="PutVimEmp">PutVimEmp</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testcases.RestAssured_TestCases" class="method navigator-link" hash-for-method="loginWithSeleniumAndGetCookie">loginWithSeleniumAndGetCookie</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases.RestAssured_TestCases</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="DeletePim">
+                  </a> <!-- DeletePim -->
+                  <span class="method-name">DeletePim</span>
+                  <em>
+(1. Send GET request to '/web/index.php/api/v2/pim/termination-reasons' to retrieve list of termination reasons
+2. Extract the ID of the second termination reason from the response
+3. Construct DELETE request body using extracted ID
+4. Send DELETE request to '/web/index.php/api/v2/pim/termination-reasons' with the ID
+5. Print and verify request body, status code, and response body
+6. Assert the response status code is 200 and validate implementation correctness)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="DeletePimEmp">
+                  </a> <!-- DeletePimEmp -->
+                  <span class="method-name">DeletePimEmp</span>
+                  <em>
+(1. Send GET request to '/web/index.php/api/v2/pim/employees' to fetch employee data
+2. Extract the 'empNumber' of the second employee from the response
+3. Construct DELETE request body with extracted employee ID
+4. Send DELETE request to '/web/index.php/api/v2/pim/employees' with valid session cookie
+5. Print and verify request body, status code, and response body
+6. Assert that the response status code is 200 and validate implementation correctness)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="GetEmpCount">
+                  </a> <!-- GetEmpCount -->
+                  <span class="method-name">GetEmpCount</span>
+                  <em>
+(1. Define the endpoint to get employee count
+2. Send a GET request to '/web/index.php/api/v2/pim/employees/count' with a valid cookie
+3. Validate presence of RestAssured steps: given, cookie, get, and response
+4. Print and verify the status code and response body
+5. Assert the response status code is 200 and implementation is correct)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="GetHolidayData">
+                  </a> <!-- GetHolidayData -->
+                  <span class="method-name">GetHolidayData</span>
+                  <em>
+(1. Define the endpoint to fetch holiday data for the year 2025
+2. Send a GET request to '/web/index.php/api/v2/leave/holidays' with a valid cookie
+3. Validate if the implementation uses correct RestAssured steps (given, cookie, get, response)
+4. Print the response status code and body for verification
+5. Assert the status code is 200 and implementation is correct)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="GetLeaveData">
+                  </a> <!-- GetLeaveData -->
+                  <span class="method-name">GetLeaveData</span>
+                  <em>
+(1. Define the endpoint to retrieve holiday details for the year 2025
+2. Send a GET request to '/web/index.php/api/v2/leave/holidays' using a valid cookie
+3. Validate whether the method contains RestAssured steps like given, cookie, get, and response
+4. Print and verify the response status code and response body
+5. Assert that the response status code is 200 and implementation is as expected)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="GetLeaveType">
+                  </a> <!-- GetLeaveType -->
+                  <span class="method-name">GetLeaveType</span>
+                  <em>
+(1. Define the endpoint to retrieve all leave types with no limit
+2. Send a GET request to '/web/index.php/api/v2/leave/leave-types?limit=0' using a valid session cookie
+3. Validate implementation contains: given, cookie, get, and response
+4. Print and verify status code and response body
+5. Assert that the status code is 200 and implementation is correct)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="GetUsageReport">
+                  </a> <!-- GetUsageReport -->
+                  <span class="method-name">GetUsageReport</span>
+                  <em>
+(1. Define the endpoint to retrieve all leave types with no limit
+2. Send a GET request to '/web/index.php/api/v2/leave/leave-types?limit=0' using a valid session cookie
+3. Validate implementation contains: given, cookie, get, and response
+4. Print and verify status code and response body
+5. Assert that the status code is 200 and implementation is correct)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="PostPimEmp">
+                  </a> <!-- PostPimEmp -->
+                  <span class="method-name">PostPimEmp</span>
+                  <em>
+(1. Generate a unique employee ID dynamically
+2. Construct the request body with first name, middle name, last name, null picture, and unique employee ID
+3. Send POST request to '/web/index.php/api/v2/pim/employees' with valid session cookie
+4. Print and verify request body, status code, and response body
+5. Assert that the response status code is 200 and validate implementation correctness)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="PutTerminationReason">
+                  </a> <!-- PutTerminationReason -->
+                  <span class="method-name">PutTerminationReason</span>
+                  <em>
+(1. Define the endpoint to update termination reason by ID
+2. Prepare request body with updated name value
+3. Send a PUT request to '/web/index.php/api/v2/pim/termination-reasons/1' with valid cookie and JSON body
+4. Print the request body, status code, and response body
+5. Assert the response status code is 200 and validate implementation correctness)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="PutVimEmp">
+                  </a> <!-- PutVimEmp -->
+                  <span class="method-name">PutVimEmp</span>
+                  <em>
+(1. Send GET request to '/web/index.php/api/v2/pim/employees' to retrieve employee data
+2. Extract empNumber of the second employee from the response
+3. Construct the PUT endpoint using the extracted empNumber
+4. Create request body with updated employee details (firstName, lastName, etc.)
+5. Send PUT request with valid session cookie and request body
+6. Print and verify request and response details
+7. Assert that the response status code is 200 and validate implementation correctness)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginWithSeleniumAndGetCookie">
+                  </a> <!-- loginWithSeleniumAndGetCookie -->
+                  <span class="method-name">loginWithSeleniumAndGetCookie</span>
+                  <em>
+(Login to OrangeHRM and retrieve session cookie)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Ameet Khemani\Downloads\New folder\New folder\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite parallel=&quot;classes&quot; name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;groups&gt;
+    &lt;run&gt;
+      &lt;include name=&quot;PL1&quot;/&gt;
+    &lt;/run&gt;
+  &lt;/groups&gt;
+  &lt;groups&gt;
+    &lt;run&gt;
+      &lt;include name=&quot;PL1&quot;/&gt;
+    &lt;/run&gt;
+  &lt;/groups&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;coreUtilities.testlisteners.TestListener&quot;/&gt;
+    &lt;listener class-name=&quot;coreUtilities.testlisteners.RetryListener&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; parallel=&quot;classes&quot; name=&quot;Test&quot;&gt;
+    &lt;parameter name=&quot;environment&quot; value=&quot;dev&quot;/&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testcases.RestAssured_TestCases&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">PL1</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">DeletePim</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">DeletePimEmp</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">GetEmpCount</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">GetHolidayData</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">GetLeaveData</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">GetLeaveType</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">GetUsageReport</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">PostPimEmp</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">PutTerminationReason</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">PutVimEmp</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">loginWithSeleniumAndGetCookie</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(11);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'loginWithSeleniumAndGetCookie')
+data.setCell(0, 2, 'testcases.RestAssured_TestCases')
+data.setCell(0, 3, 69856);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'GetHolidayData')
+data.setCell(1, 2, 'testcases.RestAssured_TestCases')
+data.setCell(1, 3, 20711);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'PutTerminationReason')
+data.setCell(2, 2, 'testcases.RestAssured_TestCases')
+data.setCell(2, 3, 6977);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'DeletePim')
+data.setCell(3, 2, 'testcases.RestAssured_TestCases')
+data.setCell(3, 3, 4206);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'PutVimEmp')
+data.setCell(4, 2, 'testcases.RestAssured_TestCases')
+data.setCell(4, 3, 2778);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'DeletePimEmp')
+data.setCell(5, 2, 'testcases.RestAssured_TestCases')
+data.setCell(5, 3, 2231);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'PostPimEmp')
+data.setCell(6, 2, 'testcases.RestAssured_TestCases')
+data.setCell(6, 3, 1713);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'GetEmpCount')
+data.setCell(7, 2, 'testcases.RestAssured_TestCases')
+data.setCell(7, 3, 1362);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'GetLeaveType')
+data.setCell(8, 2, 'testcases.RestAssured_TestCases')
+data.setCell(8, 3, 1159);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'GetUsageReport')
+data.setCell(9, 2, 'testcases.RestAssured_TestCases')
+data.setCell(9, 3, 1088);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'GetLeaveData')
+data.setCell(10, 2, 'testcases.RestAssured_TestCases')
+data.setCell(10, 3, 1070);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.RestAssured_TestCases</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">loginWithSeleniumAndGetCookie</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">GetHolidayData</span>
+                <span class="method-start">71934 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">GetLeaveData</span>
+                <span class="method-start">92955 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">GetEmpCount</span>
+                <span class="method-start">94961 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">GetLeaveType</span>
+                <span class="method-start">96506 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">GetUsageReport</span>
+                <span class="method-start">97838 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">PutTerminationReason</span>
+                <span class="method-start">99819 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">DeletePim</span>
+                <span class="method-start">107205 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">PostPimEmp</span>
+                <span class="method-start">111612 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">PutVimEmp</span>
+                <span class="method-start">114232 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">DeletePimEmp</span>
+                <span class="method-start">117244 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
