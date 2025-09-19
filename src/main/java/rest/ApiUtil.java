@@ -589,6 +589,6 @@ public class ApiUtil {
 			System.out.println("❌ 'data' object is missing or empty in the response. Status code: " + statusCode);
 		}
 
-		return new CustomResponse(response, statusCode, status, employeeId, employeeId);
+		return new CustomResponse(response, statusCode, status, employeeId);
 	}
 }
